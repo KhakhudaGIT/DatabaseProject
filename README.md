@@ -13,7 +13,9 @@ docker-compose up
 5. Відкрийте браузер і перейдіть за адресою: http://localhost:8080
 6. Щоб зупинити контейнер:
 docker-compose down
-#Або
+
+# Або
+
 1. Завантажте PostgreSQL: [PostgreSQL](https://www.postgresql.org/) 
 Maven: [Maven](https://maven.apache.org/download.cgi)
 JDK 21: [JDK](https://www.oracle.com/cis/java/technologies/downloads/)
