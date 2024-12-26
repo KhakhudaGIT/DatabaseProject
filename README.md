@@ -20,7 +20,8 @@ docker-compose down
 Maven: [Maven](https://maven.apache.org/download.cgi)
 JDK 21: [JDK](https://www.oracle.com/cis/java/technologies/downloads/)
 2. Впевніться що змінили параметри в середовищі, або в файлах application.properties, copmpose.yaml, а саме ${LOGIN}, та ${PASSWORD}, на необхідні.
-3. Запакуйте проект завдяки Maven:
+3. Створіть базу даних та змініть посилання до неї в файлах application.properties, copmpose.yaml
+4. Запакуйте проект завдяки Maven:
 maven package
-4. Запустіть проект за допомогою вашої IDE, або напряму з папки target
-5. Відкрийте браузер і перейдіть за адресою: http://localhost:8080
+5. Запустіть проект за допомогою вашої IDE, або напряму з папки target
+6. Відкрийте браузер і перейдіть за адресою: http://localhost:8080
